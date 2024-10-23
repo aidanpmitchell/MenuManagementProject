@@ -16,7 +16,10 @@ This tool is ideal for restaurant owners, managers, or anyone looking to manage 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/restaurant-menu-management.git
+   git clone https://github.com/your-username/MenuManagementProject.git
+2. Navigate into the project directory:
+   ```bash
+   cd restaurant-menu-management
 
 ## Expense Rating
 The expense rating of the restaurant is calculated based on the average price of menu items:
