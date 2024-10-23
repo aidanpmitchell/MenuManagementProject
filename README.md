@@ -16,9 +16,16 @@ This tool is ideal for restaurant owners, managers, or anyone looking to manage 
 - [Usage](#usage)
 - [Menu Management Functions](#menu-management-functions)
 - [Expense Rating](#expense-rating)
-- [File Operations](#file-operations)
 - [Example CSV File Format](#example-csv-file-format)
 - [Future Improvements](#future-improvements)
+
+
+## Expense Rating
+The expense rating of the restaurant is calculated based on the average price of menu items:
+
+- $: Average price < 10
+- $$: 10 <= Average price < 20
+- $$$: Average price >= 20
 
 ## Example CSV File Format
 To load menu items from a CSV file, the file should have the following format:
@@ -34,4 +41,9 @@ Pasta,600,14.99,no,3
 - price: Float representing the price.
 - is_vegetarian: "yes" or "no" for vegetarian status.
 - spicy_level: Integer representing the spiciness level (based on spicy_scale_map).
+
+## Future Improvements
+- Unit Tests: Add more extensive unit tests for validating menu operations.
+- Error Handling: Improve error handling, especially for invalid CSV input formats.
+- Spicy Level Customization: Allow users to customize the spicy level descriptions.
 
