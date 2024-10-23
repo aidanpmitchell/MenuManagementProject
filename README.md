@@ -12,13 +12,11 @@ This tool is ideal for restaurant owners, managers, or anyone looking to manage 
 - **Save Menu to CSV**: Save the current menu to a CSV file.
 - **Expense Rating**: Compute the average price of all items on the menu and display an expense rating ($, $$, $$$) based on the average price.
 
-## Table of Contents
-- [Usage](#usage)
-- [Menu Management Functions](#menu-management-functions)
-- [Expense Rating](#expense-rating)
-- [Example CSV File Format](#example-csv-file-format)
-- [Future Improvements](#future-improvements)
+## Installation
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/restaurant-menu-management.git
 
 ## Expense Rating
 The expense rating of the restaurant is calculated based on the average price of menu items:
