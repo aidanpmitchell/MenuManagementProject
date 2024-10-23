@@ -22,14 +22,16 @@ This tool is ideal for restaurant owners, managers, or anyone looking to manage 
 
 ## Example CSV File Format
 To load menu items from a CSV file, the file should have the following format:
+```
 name,calories,price,is_vegetarian,spicy_level
 Pizza,800,12.99,no,2
 Salad,200,7.99,yes,1
 Pasta,600,14.99,no,3
+```
 
--name: The name of the dish.
--calories: Integer representing the calories.
--price: Float representing the price.
--is_vegetarian: "yes" or "no" for vegetarian status.
--spicy_level: Integer representing the spiciness level (based on spicy_scale_map).
+- name: The name of the dish.
+- calories: Integer representing the calories.
+- price: Float representing the price.
+- is_vegetarian: "yes" or "no" for vegetarian status.
+- spicy_level: Integer representing the spiciness level (based on spicy_scale_map).
 
